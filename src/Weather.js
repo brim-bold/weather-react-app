@@ -53,7 +53,7 @@ export default function Weather(props) {
               <input
                 type="submit"
                 value="Search"
-                className="btn btn-primary w-100"
+                className="btn btn-secondary w-300"
               />
             </div>
           </div>

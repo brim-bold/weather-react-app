@@ -34,9 +34,9 @@
 }
 
 .Weather img {
-  height: 64px;
+  height: 110px;
   float: left;
-  padding: 30px;
+  padding: 10px;
   display: inline;
 }
 

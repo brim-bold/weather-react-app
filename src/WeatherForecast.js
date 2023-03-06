@@ -25,14 +25,12 @@ export default function WeatherForecast(props) {
 
   if (loaded) {
     return (
-      <div className="WeatherForecast">
-        <div className="row">
-          <ForecastDay day={forecast[1]} />
-          <ForecastDay day={forecast[2]} />
-          <ForecastDay day={forecast[3]} />
-          <ForecastDay day={forecast[4]} />
-          <ForecastDay day={forecast[5]} />
-        </div>
+      <div className="row WeatherForecast">
+        <ForecastDay day={forecast[1]} />
+        <ForecastDay day={forecast[2]} />
+        <ForecastDay day={forecast[3]} />
+        <ForecastDay day={forecast[4]} />
+        <ForecastDay day={forecast[5]} />
       </div>
     );
   } else {

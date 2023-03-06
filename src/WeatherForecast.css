@@ -1,16 +1,22 @@
 .Weather-Forecast {
   margin: 0 auto;
-  padding: 0;
+  padding: 20px 0;
   text-align: center;
 }
 
 .forecastDay {
   text-align: center;
-  width: 140px;
-  padding: 15px;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
 .WeatherForecast-temperature-min {
   opacity: 0.5;
   margin-left: 5px;
+}
+
+.forecastDay.WeatherIcon img {
+  margin: 0 auto;
+  padding: 0;
+  height: 90px;
 }

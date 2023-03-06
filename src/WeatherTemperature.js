@@ -3,14 +3,14 @@ import React, { useState } from "react";
 export default function WeatherTemperature(props) {
   const [unit, setUnit] = useState("fahrenheit");
 
-  function showFahrenheit(event) {
-    event.preventDefault();
-    setUnit("fahrenheit");
-  }
-
   function showCelsius(event) {
     event.preventDefault();
     setUnit("celsius");
+  }
+
+  function showFahrenheit(event) {
+    event.preventDefault();
+    setUnit("fahrenheit");
   }
 
   if (unit === "fahrenheit") {
@@ -32,7 +32,7 @@ export default function WeatherTemperature(props) {
       <div className="WeatherTemperature">
         <span className="temperature">{Math.round(celsius)} </span>
         <span className="unit">
-          <a href="/" onclick={showFahrenheit}>
+          <a href="/" onClick={showFahrenheit}>
             °F
           </a>{" "}
           | °C
